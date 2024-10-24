@@ -1,10 +1,4 @@
 
-        body{
-            background-color: #FBFFE2;
-            margin: 0px;
-            font-family: Poppins;
-            text-align: center;
-        }
 
         h1 h2 {
             color: #001524;
@@ -13,32 +7,6 @@
 
         }
         
-        a{
-            color: #444444;
-            text-decoration: none;
-            padding-left: 5px;
-            padding-right: 5px;
-        }
-
-        a:hover{
-            color: #444444;
-            background-color: #FBFFE2;
-        }
-
-        .lips {
-            background-color: #FFAFAF;
-            color: #444444;
-            padding-top: 2px;
-            padding-bottom: 15px;
-        }
-
-        .rose{
-            background-color: #FF9999;
-            color: #444444;
-            padding-top: 2px;
-            padding-bottom: 15px;
-        }
-
         .imge{
             height: 60px;
             padding-left: 7px;
@@ -53,9 +21,39 @@
             background-image: url();
         }
 
-        .all{
-            width: 90%;
-            margin-left: auto;
-            margin-right: auto;
+        body{
+            background-color: #F5F5F7;
+            margin: 0px;
+            font-family: Poppins;
+            text-align: center;
+        }
+        .container{
+            display: flex;
+            gap: 10px;;
+            justify-content: center;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
 
+        .square1{
+            height: auto;
+            width: auto;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            background-color: #FDBFB3;
+            border-radius: 10px;;
+            flex-basis: 300px;
+        }
+
+        a{
+            color: #444444;
+            text-decoration: none;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+        a:hover{
+            color: #444444;
+            background-color: #FBFFE2;
         }
