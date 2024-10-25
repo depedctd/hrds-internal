@@ -58,6 +58,8 @@
         a:hover{
             color: whitesmoke;
             background-color: #8D493A;
+            padding: 5px;
+            border-radius: 10px;
         }
 
         .submenu{
