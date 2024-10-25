@@ -23,6 +23,7 @@
 
         body{
             background-color: #F5F5F7;
+            /* background-image: url(./images/Mt.Fuji.jpg);*/
             margin: 0px;
             font-family: Poppins;
             text-align: center;
@@ -41,7 +42,7 @@
             padding-left: 10px;
             padding-right: 10px;
             padding-bottom: 10px;
-            background-color: #FDBFB3;
+            background-color: #D0B8A8;
             border-radius: 10px;;
             flex-basis: 300px;
         }
@@ -51,9 +52,21 @@
             text-decoration: none;
             padding-left: 5px;
             padding-right: 5px;
+            
         }
 
         a:hover{
-            color: #444444;
-            background-color: #FBFFE2;
+            color: whitesmoke;
+            background-color: #8D493A;
+        }
+
+        .submenu{
+            list-style-type: none;
+            line-height: 2;
+            text-align: center;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
         }
