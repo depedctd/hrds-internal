@@ -89,3 +89,45 @@
             border-style: outset;
             border-width: 1px;
         }
+
+        .recipients {
+            /* background-color: #C6EBC5; */
+            padding-top: 20px;
+            padding-bottom: 40px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+            border-radius: 10px;
+            /* border: 0.1px solid gray; */
+        }
+
+        .section1 {
+            color: #8D493A;
+            padding: 0px;
+            margin-bottom: 0px;
+        }
+
+        table, th, td {
+            border: 1px solid gray;
+            border-collapse: collapse;
+            
+            
+        }
+        
+        th,td {
+            color: black;
+            background-color: none;
+            border-radius: 10px;
+            padding: 6px;
+            text-align: left;
+            font-size: 15px;
+        }
+        
+        th {
+            text-align: center;
+        }
+        
+        table {
+            margin: auto;
+            width: 90%;
+        }
