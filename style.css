@@ -74,6 +74,7 @@
             border-radius: 10px;
             font-family: Poppins;
             text-decoration: none;
+            width: 100%;
         }
         
         .container-navi a:hover{
@@ -94,7 +95,6 @@
         }
 
         footer{
-            margin: 20px;
             font-size: 11px;
             font-family: Poppins;
             background-image: url();
@@ -257,4 +257,19 @@
             background-color: #FEFEFA;
         }
 
-      
+.dummy{
+    height: 100px;
+    width: auto;
+    background-color: #FEFEFA;
+}
+
+.footbed{
+    background-color: #C78A3B;
+    color: #FEFEFA;
+    height: auto;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
